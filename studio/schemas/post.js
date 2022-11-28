@@ -42,13 +42,7 @@ export default {
       name: 'date',
       title: 'Date',
       type: 'datetime',
-    },
-    {
-      name: 'author',
-      title: 'Author',
-      type: 'reference',
-      to: [{ type: 'author' }],
-    },
+    }
   ],
   preview: {
     select: {

@@ -25,7 +25,6 @@ export default function PostPreview({
         <Date dateString={date} />
       </div>
       <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
-      {author && <Avatar name={author.name} picture={author.picture} />}
     </div>
   )
 }
